@@ -64,7 +64,7 @@ export default function LandingPage() {
           handle: "@smiller",
           testimonial: "Truly the most honest shop I've ever found in Webster.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/serious-blond-woman-auto-mechanic-her-young-colleague-are-posing-photographer_613910-17068.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/serious-blond-woman-auto-mechanic-her-young-colleague-are-posing-photographer_613910-17068.jpg?_wi=1",
           imageAlt: "luxury car dark garage professional",
         },
         {
@@ -72,7 +72,7 @@ export default function LandingPage() {
           handle: "@jr",
           testimonial: "Fair pricing and expert care, every single time.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/two-bearded-brutal-mechanics-repair-car-lift-garage-repairing-car-suspension-service-station_613910-6641.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/two-bearded-brutal-mechanics-repair-car-lift-garage-repairing-car-suspension-service-station_613910-6641.jpg?_wi=1",
           imageAlt: "luxury car dark garage professional",
         },
         {
@@ -80,7 +80,7 @@ export default function LandingPage() {
           handle: "@mstevens",
           testimonial: "They diagnosed my issue in minutes. Absolutely professional.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg?_wi=1",
           imageAlt: "luxury car dark garage professional",
         },
         {
@@ -88,7 +88,7 @@ export default function LandingPage() {
           handle: "@elena_p",
           testimonial: "The best experience I've had with an auto shop in years.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/man-doing-repairs-car-engine_23-2148254112.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/man-doing-repairs-car-engine_23-2148254112.jpg?_wi=1",
           imageAlt: "luxury car dark garage professional",
         },
         {
@@ -96,7 +96,7 @@ export default function LandingPage() {
           handle: "@dwalker",
           testimonial: "Transparent, quick, and very thorough. Highly recommended.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-woman-talking_23-2150171273.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-woman-talking_23-2150171273.jpg?_wi=1",
           imageAlt: "luxury car dark garage professional",
         },
       ]}
@@ -110,7 +110,7 @@ export default function LandingPage() {
           href: "tel:5852653020",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/serious-blond-woman-auto-mechanic-her-young-colleague-are-posing-photographer_613910-17068.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/serious-blond-woman-auto-mechanic-her-young-colleague-are-posing-photographer_613910-17068.jpg?_wi=2"
       imageAlt="Sun Automotive luxury service"
       mediaAnimation="blur-reveal"
       avatars={[
@@ -199,17 +199,17 @@ export default function LandingPage() {
         {
           title: "NYS Inspections",
           description: "Quick, compliant, and reliable state inspections.",
-          imageSrc: "http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg?_wi=2",
         },
         {
           title: "Engine Repair",
           description: "Advanced diagnostics and expert engine replacement.",
-          imageSrc: "http://img.b2bpic.net/free-photo/man-doing-repairs-car-engine_23-2148254112.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/man-doing-repairs-car-engine_23-2148254112.jpg?_wi=2",
         },
         {
           title: "Brake Service",
           description: "High-performance brake maintenance and repair.",
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-woman-talking_23-2150171273.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-woman-talking_23-2150171273.jpg?_wi=2",
         },
       ]}
       title="Premium Automotive Services"
@@ -230,7 +230,7 @@ export default function LandingPage() {
           quote: "Amazing customer service, no bull, honest work.",
           tag: "Verified",
           avatarSrc: "http://img.b2bpic.net/free-photo/happy-customer-car-mechanic-shaking-hands-while-greeting-auto-repair-shop_637285-7698.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/serious-blond-woman-auto-mechanic-her-young-colleague-are-posing-photographer_613910-17068.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/serious-blond-woman-auto-mechanic-her-young-colleague-are-posing-photographer_613910-17068.jpg?_wi=3",
           imageAlt: "happy car owner professional portrait",
         },
         {
@@ -241,7 +241,7 @@ export default function LandingPage() {
           quote: "I trust him. His prices are fair.",
           tag: "Verified",
           avatarSrc: "http://img.b2bpic.net/free-photo/portrait-young-female-dentist-dentistry-concept-dental-treatment_169016-66975.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/two-bearded-brutal-mechanics-repair-car-lift-garage-repairing-car-suspension-service-station_613910-6641.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/two-bearded-brutal-mechanics-repair-car-lift-garage-repairing-car-suspension-service-station_613910-6641.jpg?_wi=2",
           imageAlt: "happy car owner professional portrait",
         },
         {
@@ -252,7 +252,7 @@ export default function LandingPage() {
           quote: "You won't find a more honest, genuine, polite, caring guy around.",
           tag: "Verified",
           avatarSrc: "http://img.b2bpic.net/free-photo/business-man-sharing-idea-with-colleague_23-2148336895.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg?_wi=3",
           imageAlt: "happy car owner professional portrait",
         },
         {
@@ -263,7 +263,7 @@ export default function LandingPage() {
           quote: "Simply the best service experience in Webster.",
           tag: "Verified",
           avatarSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-mature-businessman-with-crossed-arms_23-2147956339.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/man-doing-repairs-car-engine_23-2148254112.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/man-doing-repairs-car-engine_23-2148254112.jpg?_wi=3",
           imageAlt: "happy car owner professional portrait",
         },
         {
@@ -274,7 +274,7 @@ export default function LandingPage() {
           quote: "Professional, fast, and fair pricing.",
           tag: "Verified",
           avatarSrc: "http://img.b2bpic.net/free-photo/alone-specialist-handsome-daydreaming-collar_1262-870.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-woman-talking_23-2150171273.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-woman-talking_23-2150171273.jpg?_wi=3",
           imageAlt: "happy car owner professional portrait",
         },
       ]}
