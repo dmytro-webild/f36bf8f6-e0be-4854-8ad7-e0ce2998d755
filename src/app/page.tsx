@@ -154,7 +154,7 @@ export default function LandingPage() {
         { name: "name", type: "text", placeholder: "Your Name", required: true },
         { name: "email", type: "email", placeholder: "Your Email", required: true },
       ]}
-      multiSelect={{ name: "service", label: "Service Category", options: ["Engine", "Brakes", "Inspection"] }}
+      multiSelect={{ name: "service", label: "Service Category", options: ["Engine Repair", "NYS Inspections", "Brake Service", "General Maintenance"] }}
       textarea={{ name: "message", placeholder: "How can we help with your vehicle?", rows: 4, required: true }}
       imageSrc="http://img.b2bpic.net/free-photo/stylish-elegant-couple-car-salon_1157-22679.jpg"
       onSubmit={(data) => {
