@@ -171,6 +171,7 @@ export default function LandingPage() {
       onSubmit={(data) => {
          const mailtoLink = `mailto:appointments@sunautomotive.com?subject=Booking Request from ${data.name}&body=Message: ${data.message}%0A%0AEmail: ${data.email}`;
          window.location.href = mailtoLink;
+         alert("Thank you! Your request has been initiated.");
       }}
     />
   </div>
