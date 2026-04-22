@@ -154,10 +154,11 @@ export default function LandingPage() {
         { name: "name", type: "text", placeholder: "Your Name", required: true },
         { name: "email", type: "email", placeholder: "Your Email", required: true },
       ]}
+      multiSelect={{ name: "service", label: "Service Category", options: ["Engine", "Brakes", "Inspection"] }}
       textarea={{ name: "message", placeholder: "How can we help with your vehicle?", rows: 4, required: true }}
       imageSrc="http://img.b2bpic.net/free-photo/stylish-elegant-couple-car-salon_1157-22679.jpg"
       onSubmit={(data) => {
-         const mailtoLink = `mailto:appointments@sunautomotive.com?subject=Booking Request from ${data.name}&body=Message: ${data.message}%0A%0AEmail: ${data.email}`;
+         const mailtoLink = `mailto:appointments@sunautomotive.com?subject=Booking Request from ${data.name}&body=Message: ${data.message}%0A%0AEmail: ${data.email}%0AService: ${data.service}`;
          window.location.href = mailtoLink;
          alert("Thank you! Your request has been initiated.");
       }}
