@@ -67,40 +67,27 @@ export default function LandingPage() {
           imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-woman-talking_23-2150171273.jpg?_wi=1",          imageAlt: "luxury car dark garage professional"},
       ]}
       buttons={[
-        {
-          text: "Book an Appointment",          href: "#contact"},
+        { text: "Book an Appointment", href: "#contact" },
+        { text: "Call (585) 265-3020", href: "tel:5852653020" },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/serious-blond-woman-auto-mechanic-her-young-colleague-are-posing-photographer_613910-17068.jpg?_wi=2"
       imageAlt="Sun Automotive luxury service"
       mediaAnimation="blur-reveal"
       avatars={[
-        {
-          src: "http://img.b2bpic.net/free-photo/portrait-beautiful-woman-looking-camera_23-2148304959.jpg",          alt: "Customer portrait 1"},
-        {
-          src: "http://img.b2bpic.net/free-photo/portrait-beautiful-young-business-woman_158595-4750.jpg",          alt: "Customer portrait 2"},
-        {
-          src: "http://img.b2bpic.net/free-photo/portrait-stylish-woman-posing-fashionable-outfit_23-2149021814.jpg",          alt: "Customer portrait 3"},
-        {
-          src: "http://img.b2bpic.net/free-photo/portrait-salesman-car-dealership_23-2148130114.jpg",          alt: "Customer portrait 4"},
-        {
-          src: "http://img.b2bpic.net/free-photo/man-buying-car-showroom_1303-14589.jpg",          alt: "Customer portrait 5"},
+        { src: "http://img.b2bpic.net/free-photo/portrait-beautiful-woman-looking-camera_23-2148304959.jpg", alt: "Customer portrait 1"},
+        { src: "http://img.b2bpic.net/free-photo/portrait-beautiful-young-business-woman_158595-4750.jpg", alt: "Customer portrait 2"},
+        { src: "http://img.b2bpic.net/free-photo/portrait-stylish-woman-posing-fashionable-outfit_23-2149021814.jpg", alt: "Customer portrait 3"},
+        { src: "http://img.b2bpic.net/free-photo/portrait-salesman-car-dealership_23-2148130114.jpg", alt: "Customer portrait 4"},
+        { src: "http://img.b2bpic.net/free-photo/man-buying-car-showroom_1303-14589.jpg", alt: "Customer portrait 5"},
       ]}
       marqueeItems={[
-        {
-          type: "text",          text: "Quality Diagnostics"},
-        {
-          type: "text",          text: "NYS Inspection Experts"},
-        {
-          type: "text",          text: "Full Engine Service"},
-        {
-          type: "text",          text: "Trusted Webster Local"},
-        {
-          type: "text",          text: "Premium Care"},
+        { type: "text", text: "Quality Diagnostics"},
+        { type: "text", text: "NYS Inspection Experts"},
+        { type: "text", text: "Full Engine Service"},
+        { type: "text", text: "Trusted Webster Local"},
+        { type: "text", text: "Premium Care"},
       ]}
     />
-    <div className="px-6 py-4 text-center text-sm font-medium opacity-80">
-        Need help now? Call us at <a href="tel:5852653020" className="underline hover:opacity-100">(585) 265-3020</a>
-    </div>
   </div>
 
   <div id="trust" data-section="trust">
