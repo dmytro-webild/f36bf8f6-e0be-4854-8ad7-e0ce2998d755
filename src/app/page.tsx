@@ -168,6 +168,10 @@ export default function LandingPage() {
         required: true,
       }}
       imageSrc="http://img.b2bpic.net/free-photo/stylish-elegant-couple-car-salon_1157-22679.jpg"
+      onSubmit={(data) => {
+         const mailtoLink = `mailto:appointments@sunautomotive.com?subject=Booking Request from ${data.name}&body=Message: ${data.message}%0A%0AEmail: ${data.email}`;
+         window.location.href = mailtoLink;
+      }}
     />
   </div>
 
