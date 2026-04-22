@@ -63,7 +63,7 @@ export default function LandingPage() {
           imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-woman-talking_23-2150171273.jpg?_wi=1", imageAlt: "luxury car dark garage professional"},
       ]}
       buttons={[
-        { text: "Book an Appointment", href: "#contact" },
+        { text: "Book an Appointment", onClick: () => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" }) },
         { text: "Call (585) 265-3020", href: "tel:5852653020" },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/serious-blond-woman-auto-mechanic-her-young-colleague-are-posing-photographer_613910-17068.jpg?_wi=2"
@@ -102,7 +102,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="Not Your Average Mechanic"
       buttons={[
-        { text: "Learn About Our Mission", href: "#" },
+        { text: "Learn About Our Mission", onClick: () => window.location.href = "#" },
       ]}
     />
   </div>
@@ -170,14 +170,14 @@ export default function LandingPage() {
       columns={[
         {
           title: "Sun Automotive", items: [
-            { label: "92 E Main St, Webster, NY 14580", href: "#" },
-            { label: "(585) 265-3020", href: "tel:5852653020" },
+            { label: "92 E Main St, Webster, NY 14580", onClick: () => {} },
+            { label: "(585) 265-3020", onClick: () => window.location.href = "tel:5852653020" },
           ],
         },
         {
           title: "Hours", items: [
-            { label: "Mon–Wed & Fri: 8:15 AM - 6 PM", href: "#" },
-            { label: "Closed: Sat–Sun", href: "#" },
+            { label: "Mon–Wed & Fri: 8:15 AM - 6 PM" },
+            { label: "Closed: Sat–Sun" },
           ],
         },
       ]}
